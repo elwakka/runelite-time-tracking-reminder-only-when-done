@@ -27,13 +27,12 @@
  */
 package com.timetrackingreminder.runelite.farming;
 
-import com.google.inject.Singleton;
 import java.time.Instant;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
-import javax.inject.Inject;
+
 import lombok.Getter;
 import lombok.Setter;
 import net.runelite.api.Client;
@@ -43,7 +42,7 @@ import net.runelite.api.widgets.Widget;
 import net.runelite.api.widgets.WidgetInfo;
 import net.runelite.client.config.ConfigManager;
 import net.runelite.client.game.ItemManager;
-import net.runelite.client.plugins.timetracking.SummaryState;
+import com.timetrackingreminder.SummaryState;
 import net.runelite.client.plugins.timetracking.TimeTrackingConfig;
 import net.runelite.client.plugins.timetracking.TimeTrackingPlugin;
 import net.runelite.client.ui.overlay.infobox.InfoBoxManager;

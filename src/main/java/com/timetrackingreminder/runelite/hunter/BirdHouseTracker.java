@@ -28,8 +28,7 @@
 package com.timetrackingreminder.runelite.hunter;
 
 import com.google.common.collect.ImmutableSet;
-import com.google.inject.Inject;
-import com.google.inject.Singleton;
+
 import java.time.Duration;
 import java.time.Instant;
 import java.util.HashMap;
@@ -43,7 +42,7 @@ import net.runelite.api.coords.WorldPoint;
 import net.runelite.client.Notifier;
 import net.runelite.client.config.ConfigManager;
 import net.runelite.client.game.ItemManager;
-import net.runelite.client.plugins.timetracking.SummaryState;
+import com.timetrackingreminder.SummaryState;
 import net.runelite.client.plugins.timetracking.TimeTrackingConfig;
 
 public class BirdHouseTracker

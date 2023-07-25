@@ -27,7 +27,7 @@
 package com.timetrackingreminder.runelite.farming;
 
 import com.google.common.annotations.VisibleForTesting;
-import com.google.inject.Singleton;
+
 import java.time.Instant;
 import java.util.Collection;
 import java.util.EnumMap;
@@ -38,7 +38,7 @@ import java.util.Map;
 import java.util.Set;
 import javax.annotation.Nullable;
 import javax.inject.Inject;
-import lombok.AccessLevel;
+
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import net.runelite.api.Client;
@@ -52,7 +52,7 @@ import net.runelite.client.config.ConfigManager;
 import net.runelite.client.config.RuneScapeProfile;
 import net.runelite.client.config.RuneScapeProfileType;
 import net.runelite.client.game.ItemManager;
-import net.runelite.client.plugins.timetracking.SummaryState;
+import com.timetrackingreminder.SummaryState;
 import net.runelite.client.plugins.timetracking.TimeTrackingConfig;
 import net.runelite.client.util.Text;
 

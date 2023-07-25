@@ -32,7 +32,7 @@ import java.awt.image.BufferedImage;
 import java.time.Instant;
 import lombok.Getter;
 import net.runelite.client.plugins.Plugin;
-import net.runelite.client.plugins.timetracking.SummaryState;
+import com.timetrackingreminder.SummaryState;
 import net.runelite.client.plugins.timetracking.TabContentPanel;
 import net.runelite.client.plugins.timetracking.TimeTrackingConfig;
 import net.runelite.client.ui.ColorScheme;

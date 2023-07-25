@@ -7,7 +7,6 @@ import com.timetrackingreminder.runelite.hunter.*;
 import lombok.extern.slf4j.Slf4j;
 import net.runelite.api.Client;
 import net.runelite.api.GameState;
-import net.runelite.api.Varbits;
 import net.runelite.api.events.GameStateChanged;
 import net.runelite.api.events.GameTick;
 import net.runelite.client.Notifier;
@@ -17,11 +16,8 @@ import net.runelite.client.events.ConfigChanged;
 import net.runelite.client.game.ItemManager;
 import net.runelite.client.plugins.Plugin;
 import net.runelite.client.plugins.PluginDescriptor;
-import net.runelite.client.plugins.timetracking.SummaryState;
 import net.runelite.client.plugins.timetracking.TimeTrackingConfig;
 import net.runelite.client.ui.overlay.infobox.InfoBoxManager;
-
-import java.time.Instant;
 
 @Slf4j
 @PluginDescriptor(
